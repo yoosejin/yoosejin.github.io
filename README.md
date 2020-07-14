@@ -1,1 +1,0 @@
-# Sejin's blog
