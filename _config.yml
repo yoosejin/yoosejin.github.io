@@ -34,6 +34,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-R0X6GMHTG7"
+    anonymize_ip: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
