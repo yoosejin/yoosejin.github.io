@@ -86,6 +86,13 @@ $ ansible-playbook -i inventory install.yml -vvv
 ```
 
 <br>
+
+<br>
+
+##설치 과정 오류 해결 방법
+---
+
+<br>
 설치 과정에서 오류가 발생할 수 있는데 제가 겪었던 오류들을 공유합니다.
 
 <br>
@@ -129,6 +136,65 @@ $ pip install --upgrade requests
 
 <br>
 
+###설치 완료 후 방화벽 추가, 서비스 실행 확인
+---
+<br>
+
+`도커 서비스 확인:`
+
+```bash
+$ docker ps
+CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                  NAMES
+7dd337c884b6        ansible/awx:13.0.0   "tini -- /usr/bin/la…"   9 hours ago         Up 9 hours          8052/tcp               awx_task
+9eeed62e84c9        ansible/awx:13.0.0   "tini -- /bin/sh -c …"   9 hours ago         Up 9 hours          0.0.0.0:80->8052/tcp   awx_web
+dbde0248a608        redis                "docker-entrypoint.s…"   10 hours ago        Up 9 hours          6379/tcp               awx_redis
+3b630bc0ed92        postgres:10          "docker-entrypoint.s…"   10 hours ago        Up 9 hours          5432/tcp               awx_postgres
+
+```
+<br>
+
+`방화벽 추가:`
+
+```bash
+$ firewall-cmd --zone=public --add-masquerade --permanent
+$ firewall-cmd --permanent --add-service=http
+$ firewall-cmd --permanent --add-service=https
+$ firewall-cmd --reload
+```
+
+<br>
+
+방화벽 설정까지 모두 끝났다면 `http://server-ip`로 웹 페이지를 확인할 수 있습니다.
+<br>
+기본적으로 ID/PW는 admin/password일텐데 변경하고 싶으시다면 `<awx 설치경로>/installer/inventory` 파일에서 아래 부분을 수정하시면 됩니다.
+<br>
+
+```bash
+# 110-111 line
+admin_user=admin
+admin_password=변경하고자 하는 비밀번호
+
+```
+<br>
+
+`웹 페이지 호출 결과`
+
+<figure>
+  <img data-action="zoom" src='{{ "/assets/img/ansible1.png" | relative_url }}' alt='absolute'>
+  <figcaption>http://server-ip 접속 로그인 화면</figcaption>
+</figure>
+
+<br>
+
+`로그인 후 대시보드 화면`
+
+<figure>
+  <img data-action="zoom" src='{{ "/assets/img/ansible2.png" | relative_url }}' alt='absolute'>
+  <figcaption>AWX 대시보드</figcaption>
+</figure>
+
+
+<br>
 문의사항은 댓글이나 이메일로 남겨주시면 답변드리도록 하겠습니다.
 <br>
 감사합니다.
