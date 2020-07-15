@@ -4,6 +4,9 @@ title:  "CentOS7에서 Ruby 설치하기"
 author: Sejin
 tags: ruby install centos7
 categories: Etc
+sitemap:
+ changefreq: daily
+ priority: 1.0
 ---
 
 ## 개요

@@ -4,6 +4,9 @@ title:  "Ansible, AWX 설치 방법(CentOS 7.8)"
 author: Sejin
 tags: ansible ansible-tower awx install centos7
 categories: Ansible
+sitemap:
+ changefreq: daily
+ priority: 1.0
 ---
 
 ## 개요
