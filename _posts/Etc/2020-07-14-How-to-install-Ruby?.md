@@ -10,15 +10,16 @@ categories: Etc
 Github 블로그 생성을 위해 필요한 환경 설정에 대한 포스팅입니다.
 
 이해가 어려운 부분에 대해서는 **sejin_yoo@naver.com**으로 메일주시면 답장 드리겠습니다.
-
-  
+<br>
+<br> 
 ## 설치 환경
 ---
 OS : `CentOS 7.8 x86_64`
 
 Network : 외부 통신 가능
   
-  
+  <br>
+<br>
 ## 설치 과정
 ---
 먼저 ruby 설치에 필요한 의존성 패키지를 먼저 설치합니다. 
@@ -37,6 +38,7 @@ $ yum install gcc-c++ patch readline readline-devel zlib zlib-devel libffi-devel
 <br>
 rvm 공식 홈페이지에서 패키지를 다운받기 위해 키를 설치합니다.
 <br>
+
 `Install GPG Keys:`
 
 ```bash
@@ -46,6 +48,7 @@ $ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D
 <br>
 명령어 2개 중에 선택해서 설치하시면 되는데 차이는 설치되는 패키지입니다.
 <br>
+
 `Install RVM or Install RVM with Ruby and Rails (Ruby Version 2.0.0):`
 
 ```bash
@@ -107,6 +110,7 @@ ruby-head
 따라서, 2.7이 아닌 2.6 버전의 Ruby를 설치하도록 하겠습니다.
 아래 명령어처럼 마이너 버전을 생략하면 해당 메이저 버전에서 가장 최신을 설치하게 됩니다.
 <br>
+
 `Install ruby 2.6:`
 
 ```bash
@@ -135,6 +139,7 @@ ruby-2.6.5 - #generating default wrappers.......
  <br>
 설치된 리스트를 확인합니다.
 <br>
+
 `Installed list:`
 ```bash
 리스트에서 확인 가능한 가장 좌측의 표시는 아래와 같은 의미를 가지고 있습니다.
@@ -147,7 +152,9 @@ $ rvm list
 => ruby-2.6.5 [ x86_64 ]
  * ruby-2.7.0 [ x86_64 ]
 ```
- 
+
+<br> 
+
 
 `Set up the default ruby:`
 ```bash
@@ -158,7 +165,8 @@ $ rvm list
 $ rvm use 2.6 --default
 Using /usr/local/rvm/gems/ruby-2.6.5
 ```
- 
+
+<br> 
 
 
 `Check current version:`
@@ -170,6 +178,7 @@ $ ruby --version
 ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
 ```
  
-
+<br>
+<br>
 
 참고 링크 : [RVM 공식 사이트](https://rvm.io/)
