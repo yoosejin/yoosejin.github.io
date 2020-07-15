@@ -1,66 +1,86 @@
 ---
 layout: post
 title:  "CentOS7에서 Ruby 설치하기"
-tag: ruby install centos7
+tags: ruby install centos7
 categories: Etc
 ---
 
 ## 개요
+---
 Github 블로그 생성을 위해 필요한 환경 설정에 대한 포스팅입니다.
 
-이해가 어려운 부분에 대해서는 댓글이나 sejin_yoo@naver.com으로 메일주시면 답장 드리겠습니다.
+이해가 어려운 부분에 대해서는 **sejin_yoo@naver.com**으로 메일주시면 답장 드리겠습니다.
 
-
+  
 ## 설치 환경
-OS : CentOS 7.8 x86_64
+---
+OS : `CentOS 7.8 x86_64`
+
 Network : 외부 통신 가능
-
-
+  
+  
 ## 설치 과정
+---
+먼저 ruby 설치에 필요한 의존성 패키지를 먼저 설치합니다. 
+
+저는 인터넷 환경에서 설치를 진행중이라 무리없이 진행됐지만 인터넷이 불가한 환경에 계시다면 아래 글을 참고해서 진행하시면 될 것 같습니다.
+
+[CentOS 패키지 설치하기](https://blog.naver.com/sejin_yoo/221609835305)
+
 
 Install dependency packages: 
 {% highlight ruby %}
+```bash
 $ yum install gcc-c++ patch readline readline-devel zlib zlib-devel libffi-devel \
  openssl-devel make bzip2 autoconf automake libtool bison sqlite-devel -y
+```
 {% endhighlight %}
-
+  
 
 Install GPG Keys:
 {% highlight ruby %}
-$gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+```bash
+$ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+```
 {% endhighlight %}
 
 
 Install RVM or Install RVM with Ruby and Rails (Ruby Version 2.0.0):
 {% highlight ruby %}
+```bash
 $ curl -sSL https://get.rvm.io | bash -s stable
 
 OR
 
 $ curl -sSL https://get.rvm.io | bash -s stable --rails
+```
 {% endhighlight %}
 
 Reload RVM:
 {% highlight ruby %}
+```bash
 $ source /etc/profile.d/rvm.sh
 $ rvm reload
+```
 {% endhighlight %}
 
 
 Check all Dependencies and install any missing dependencies:
 {% highlight ruby %}
+```bash
 rvm requirements 명령을 사용하면 의존성 패키지를 확인하고 부족한 패키지를 자동으로 설치합니다.
 
 $ rvm requirements run
 Checking requirements for centos.
 Requirements installation successful.
+```
 {% endhighlight %}
 
 
 Find available ruby version:
 {% highlight ruby %}
 일부만 발췌한 내용으로 실제 설치 가능한 종류는 더 많습니다.
-
+```bash
 $ rvm list known
 [ruby-]1.8.6[-p420]
 [ruby-]1.8.7[-head] # security released on head
@@ -76,6 +96,7 @@ $ rvm list known
 [ruby-]2.6[.5]
 [ruby-]2.7[.0]
 ruby-head
+```
 {% endhighlight %}
 
 
@@ -84,7 +105,7 @@ Install ruby 2.6:
 저는 안정성을 중시하기 때문에 최신 버전은 가능하면 지양하는 편입니다.
 따라서, 2.7이 아닌 2.6 버전의 Ruby를 설치하도록 하겠습니다.
 아래 명령어처럼 마이너 버전을 생략하면 해당 메이저 버전에서 가장 최신을 설치하게 됩니다.
-
+```bash
 $ rvm install 2.6
 Searching for binary rubies, this might take some time.
 Found remote file https://rvm_io.global.ssl.fastly.net/binaries/centos/7/x86_64/ruby-2.6.5.tar.bz2
@@ -106,39 +127,44 @@ ruby-2.6.5 - #generating global wrappers.......
 ruby-2.6.5 - #gemset created /usr/local/rvm/gems/ruby-2.6.5
 ruby-2.6.5 - #importing gemsetfile /usr/local/rvm/gemsets/default.gems evaluated to empty gem list
 ruby-2.6.5 - #generating default wrappers.......
+```
 {% endhighlight %}
 
 
 Installed list:
 {% highlight ruby %}
 리스트에서 확인 가능한 가장 좌측의 표시는 아래와 같은 의미를 가지고 있습니다.
-`=> 현재 버전`
-`=* 현재 버전 및 기본 버전`
-`*  기본 버전`
-
-
+```
+=> 현재 버전
+=* 현재 버전 및 기본 버전
+*  기본 버전
+```
+```bash
 $ rvm list
 => ruby-2.6.5 [ x86_64 ]
  * ruby-2.7.0 [ x86_64 ]
+```
 {% endhighlight %}
 
 Set up the default ruby:
 {% highlight ruby %}
 위 리스트를 확인하면 2.7의 ruby가 기본 버전으로 설정되어 있는 것을 확인할 수 있습니다.
 아래는 우리가 설치한 버전을 기본 버전으로 적용하는 명령입니다.
-
+```bash
 $ rvm use 2.6 --default
 Using /usr/local/rvm/gems/ruby-2.6.5
+```
 {% endhighlight %}
 
 
 Check current version:
 {% highlight ruby %}
 현재 버전을 확인합니다.
-
+```bash
 $ ruby --version
 ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+```
 {% endhighlight %}
 
 
-[RVM 공식 사이트]: https://rvm.io/
+[RVM 공식 사이트]: <https://rvm.io/>
