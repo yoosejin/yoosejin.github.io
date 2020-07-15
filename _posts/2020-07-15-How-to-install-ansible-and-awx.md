@@ -89,7 +89,7 @@ $ ansible-playbook -i inventory install.yml -vvv
 
 <br>
 
-##설치 과정 오류 해결 방법
+## 설치 과정 오류 해결 방법
 ---
 
 <br>
@@ -136,7 +136,7 @@ $ pip install --upgrade requests
 
 <br>
 
-###설치 완료 후 방화벽 추가, 서비스 실행 확인
+### 설치 완료 후 방화벽 추가, 서비스 실행 확인
 ---
 <br>
 
@@ -180,7 +180,7 @@ admin_password=변경하고자 하는 비밀번호
 `웹 페이지 호출 결과`
 
 <figure>
-  <img data-action="zoom" src='{{ "/assets/img/ansible1.png" | relative_url }}' alt='absolute'>
+  <img data-action="zoom" src='{{ "/assets/img/ansible1.PNG" | relative_url }}' alt='absolute'>
   <figcaption>http://server-ip 접속 로그인 화면</figcaption>
 </figure>
 
@@ -189,7 +189,7 @@ admin_password=변경하고자 하는 비밀번호
 `로그인 후 대시보드 화면`
 
 <figure>
-  <img data-action="zoom" src='{{ "/assets/img/ansible2.png" | relative_url }}' alt='absolute'>
+  <img data-action="zoom" src='{{ "/assets/img/ansible2.PNG" | relative_url }}' alt='absolute'>
   <figcaption>AWX 대시보드</figcaption>
 </figure>
 
