@@ -7,10 +7,10 @@
   </h2>
 
   <ul class="list-unstyled interests-list">
-    {%for category in categories %}
+    {%for category in category-archive %}
     <li>
-      {{ category-archive.idiom }}
-      <span class="lang-desc">({{ category-archive.level }})</span>
+      {{ category.idiom }}
+      <span class="lang-desc">({{ category.level }})</span>
     </li>
     {% endfor %}
   </ul>
