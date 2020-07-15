@@ -48,7 +48,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
-disqus_shortname: 'yoosejin blog'
+disqus_shortname: 'yoosejin-blog'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

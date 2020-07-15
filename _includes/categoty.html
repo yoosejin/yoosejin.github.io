@@ -1,0 +1,19 @@
+{% assign category-archive = site.data.data.sidebar.category-archive %}
+{% if category-archive %}
+<div class="category-archive-container container-block">
+
+  <h2 class="container-block-title">
+    Categories
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {%for category in categories %}
+    <li>
+      {{ category-archive.idiom }}
+      <span class="lang-desc">({{ category-archive.level }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
