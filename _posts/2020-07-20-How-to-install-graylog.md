@@ -3,7 +3,7 @@ layout: post
 title:  "GrayLog 설치 방법 (CentOS 7.8)"
 author: Sejin
 tags: elasticsearch graylog yum mongodb configuration install centos7 opensource
-categories: OpenSource
+categories: GrayLog
 sitemap:
  changefreq: daily
  priority: 1.0
