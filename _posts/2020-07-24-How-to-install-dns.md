@@ -96,7 +96,8 @@ $ systemctl restart named
 # 서비스 확인
 $ systemctl status named
 ```
-
+<br>
+<br>
 
 ### 클라이언트 설정
 ---
@@ -118,5 +119,6 @@ $ nslookup sejin.com
 <br>
 <br>
 문의 사항이 있으시면 댓글이나 메일로 남겨주세요
+<br>
 감사합니다.
 
