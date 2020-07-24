@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "네임서버 구성 (CentOS7)"
 author: Sejin
 tags: dns nameserver configuration install centos7 opensource
 categories: Etc
