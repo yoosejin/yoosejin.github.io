@@ -62,4 +62,9 @@ sitemap:
 <lastmod>2020-07-27T09:18:09+00:00</lastmod>
 <priority>0.64</priority>
 </url>
+<url>
+<loc>https://yoosejin.github.io/nodejs/2020/07/28/Development-configuration.html</loc>
+<lastmod>2020-07-28T08:18:54+00:00</lastmod>
+<priority>0.64</priority>
+</url>
 </urlset>
