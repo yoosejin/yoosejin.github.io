@@ -25,6 +25,13 @@ sitemap:
 `패키지 설치:`
 
 ```bash
+$ yum update
+
+# install ldap packages
+$ yum install -y *openldap*
+
+```
+<br>
 
 `서비스 실행:`
 
