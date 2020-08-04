@@ -11,6 +11,13 @@ sitemap:
 
 ## 개요
 ---
+`참고 링크 :`
+<br>
+[NameServer 설치하기](https://yoosejin.github.io/etc/2020/07/24/How-to-install-dns.html)
+[OpenLDAP 설치하기](https://yoosejin.github.io/etc/2020/07/26/How-to-install-openldap.html)
+
+
+<br>
 오늘 포스팅은 이전 포스팅에서 설치했던 DNS, LDAP을 활용하여 인증된 유저만 특정 사이트에 접속할 수 있도록 하는 내용입니다.
 <br>
 기업 내에 같은 임직원이라도 보안 정책에 따라 접근할 수 있는 서비스가 다를 수 있습니다.

@@ -11,6 +11,12 @@ sitemap:
 
 ## 개요
 ---
+`참고 링크 :`
+<br>
+[NameServer 설치하기](https://yoosejin.github.io/etc/2020/07/24/How-to-install-dns.html)
+[Squid 설치 및 LDAP 연동하기](https://yoosejin.github.io/etc/2020/07/29/squid-with-ldap.html)
+
+<br>
 오늘 포스팅은 CentOS 7에서 OpenLDAP을 설치하고 간략한 설정하는 내용입니다.
 <br>
 목표는 LDAP 유저를 사용해서 Squid Proxy로 웹 브라우저 접속을 제한하는 것입니다.
