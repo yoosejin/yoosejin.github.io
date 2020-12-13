@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Node.js에 관한 잡다한 내용-1"
+title:  "Node.js에 관한 잡다한 내용-2"
 author: Sejin
 tags: nodejs development
 categories: NodeJS
