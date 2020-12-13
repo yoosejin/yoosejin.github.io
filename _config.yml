@@ -9,10 +9,10 @@ exclude:
   - "/vendor/"
 
 # Site settings
-#title: Sejin's Blog
-title: 
-#subtitle: "성장하기 위해 노력하고 있습니다."
-subtitle: 
+title: Sejin's Blog
+#title: 
+subtitle: "성장하기 위해 노력하고 있습니다."
+#subtitle: 
 email: sejin_yoo@naver.com
 name: Yoo SeJin
 description: >
