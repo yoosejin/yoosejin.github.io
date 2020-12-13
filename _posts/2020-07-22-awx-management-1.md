@@ -31,21 +31,28 @@ Ansible 코드를 실행하는 환경에 걸맞게 AWX는 다양한 환경 설�
 
 ```
 # Credentials
- : 각 서비스(혹은 서버)에 접근하기 위한 인증 정보를 등록합니다.
- : 인증 정보가 등록되면 주요 정보는 암호화 됩니다. (Password, Private Key 등)
-   따라서, 등록한 사람도 정보를 기억하고 있지 않다면 저장된 정보의 내용이 무엇인지 알 수 없습니다.
+ : 각 서비스(혹은 서버)에 접근하기 위한
+   인증 정보를 등록합니다.
+ : 인증 정보가 등록되면 주요 정보는 암호화
+   됩니다. (Password, Private Key 등)
+   따라서, 등록한 사람도 정보를 기억하고 있지
+   않다면 저장된 정보의 내용이 무엇인지 알 수 없습니다.
 
 # Projects
  : 하나의 서비스를 뜻합니다. (Git과 같은)
- : 생성된 Credentials를 Projects와 연결하여 서비스에 접속할 수 있습니다.
+ : 생성된 Credentials를 Projects와 연결하여
+   서비스에 접속할 수 있습니다.
 
 # Inventories
  : 작업할 대상입니다.
- : 일반적으로 hosts 파일을 생성해서 목록을 관리하지만 단일 IP나 Domain으로 등록하여 사용하기도 합니다.
+ : 일반적으로 hosts 파일을 생성해서 목록을 관리하지만
+   단일 IP나 Domain으로 등록하여 사용하기도 합니다.
 
 # Templates
  : Playbook을 실행하는 곳입니다.
- : Template 작성을 위해서는 Credentials, Projects, Inventories가 기본적으로 생성되어 있어야 합니다. (실제 설정 가능한 항목은 더 많습니다.)
+ : Template 작성을 위해서는 Credentials, Projects, 
+   Inventories가 기본적으로 생성되어 있어야 합니다. 
+   (실제 설정 가능한 항목은 더 많습니다.)
 
 
 ```
