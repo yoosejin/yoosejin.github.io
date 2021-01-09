@@ -37,24 +37,24 @@ git version 1.8.3.1
 
 ```bash
 // Download source file
-# wget https://github.com/git/git/archive/v2.29.0.tar.gz
+wget https://github.com/git/git/archive/v2.29.0.tar.gz
  
 // Extract file
-# tar xvfz v2.29.0.tar.gz
+tar xvfz v2.29.0.tar.gz
 
 // Change directory
-# cd git-2.29.0
+cd git-2.29.0
 
 // make configure
-# make configure
+make configure
 
-# ./configure --prefix=/usr
+./configure --prefix=/usr
 
-# make
+make
 
-# make install
+make install
 
-# git --version
+git --version
 git version 2.29.0
 
 
@@ -75,7 +75,8 @@ make: *** [configure] 오류 127
 
 // Workaround
 autoconf 패키지가 없어 발생한 오류입니다.
-# yum install -y autoconf
+
+yum install -y autoconf
 
 ```
 <br>
@@ -95,7 +96,8 @@ See `config.log' for more details
 
 // Workaround
 gcc 패키지가 없어 발생한 문제입니다.
-# yum install -y gcc
+
+yum install -y gcc
 
 ```
 <br>
@@ -117,7 +119,8 @@ make: *** [fuzz-commit-graph.o] 오류 1
 
 // Workaround
 zlib-devel 패키지가 없어 발생한 문제입니다.
-# yum install -y zlib-devel
+
+yum install -y zlib-devel
 
 ```
 
