@@ -10,79 +10,82 @@ sitemap:
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
 <url>
-<loc>https://yoosejin.github.io/</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://yoosejin.github.io/</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/about/</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://yoosejin.github.io/about/</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/posts/</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://yoosejin.github.io/posts/</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/etc/2020/07/29/squid-with-ldap.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/etc/2021/01/09/upgrade-git.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/etc/2020/07/26/How-to-install-openldap.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/etc/2020/07/29/squid-with-ldap.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/etc/2020/07/24/How-to-install-dns.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/etc/2020/07/26/How-to-install-openldap.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/etc/2020/07/14/How-to-install-Ruby.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/etc/2020/07/24/How-to-install-dns.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/ansible/2020/07/22/awx-management-1.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/etc/2020/07/14/How-to-install-Ruby.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/ansible/2020/07/15/How-to-install-ansible-and-awx.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/ansible/2020/07/22/awx-management-1.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/graylog/2020/07/20/How-to-install-graylog.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/ansible/2020/07/15/How-to-install-ansible-and-awx.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/nodejs/2020/12/15/nodejs-general-info2.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/graylog/2020/07/20/How-to-install-graylog.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/nodejs/2020/08/08/nodejs-general-info.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/nodejs/2020/12/15/nodejs-general-info2.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/nodejs/2020/08/06/nodejs-general.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/nodejs/2020/08/08/nodejs-general-info.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/nodejs/2020/08/02/nodejs-with-mysql.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/nodejs/2020/08/02/nodejs-with-mysql.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://yoosejin.github.io/nodejs/2020/07/28/Development-configuration.html</loc>
-<lastmod>2020-12-15T03:32:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://yoosejin.github.io/nodejs/2020/07/28/Development-configuration.html</loc>
+  <lastmod>2021-01-09T11:11:36+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>
