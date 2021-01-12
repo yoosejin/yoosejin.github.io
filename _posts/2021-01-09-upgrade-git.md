@@ -18,6 +18,14 @@ sitemap:
 Test OS : CentOS Linux release 7.9.2009 (Core)
 <br>
 
+[Git 2.29 버전 설치 영상]이 있으니 확인 해보세요
+
+[Git 2.29 버전 설치 영상]: https://youtu.be/JJ9Pqg9GPjI
+
+
+<br>
+
+
 <br>
 
 ## 현재 버전 확인
