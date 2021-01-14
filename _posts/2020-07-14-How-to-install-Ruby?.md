@@ -9,11 +9,12 @@ sitemap:
  priority: 1.0
 ---
 
+
 ## 개요
 ---
 Github 블로그 생성을 위해 필요한 환경 설정에 대한 포스팅입니다.
 
-Youtube Link : [CentOS7에서 Ruby 설치하기](https://youtu.be/ucBdQU3pIr4)
+`<b>Youtube Link</b> :` [CentOS7에서 Ruby 설치하기](https://youtu.be/ucBdQU3pIr4)
 
 
 이해가 어려운 부분에 대해서는 **sejin_yoo@naver.com**으로 메일주시면 답장 드리겠습니다.
