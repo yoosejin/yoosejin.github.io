@@ -16,9 +16,8 @@ Github 블로그 생성을 위해 필요한 환경 설정에 대한 포스팅입
 
 <figure>
   <img data-action="zoom" src='{{ "/assets/img/Install_Ruby_on_CentOS_title.jpg" | relative_url }}' alt='absolute'>
-  <figcaption>Youtube Thumbnail</figcaption>
+  <figcaption style="text-align: center;">Youtube Thumbnail</figcaption>
 </figure>
-`Youtube Link :` [CentOS7에서 Ruby 설치하기](https://youtu.be/ucBdQU3pIr4)
 [CentOS7에서 Ruby 설치 영상]이 있으니 확인 해보세요 (Install Ruby Youtube Link)
 
 [CentOS7에서 Ruby 설치 영상]: https://youtu.be/ucBdQU3pIr4
