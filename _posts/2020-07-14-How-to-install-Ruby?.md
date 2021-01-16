@@ -23,7 +23,6 @@ Github 블로그 생성을 위해 필요한 환경 설정에 대한 포스팅입
 [CentOS7에서 Ruby 설치 영상]: https://youtu.be/ucBdQU3pIr4
 
 
-
 이해가 어려운 부분에 대해서는 **sejin_yoo@naver.com**으로 메일주시면 답장 드리겠습니다.
 <br>
 <br> 
@@ -46,8 +45,11 @@ Network : 외부 통신 가능
 `Install dependency packages:` 
 
 ```bash
-$ yum install gcc-c++ patch readline readline-devel zlib zlib-devel libffi-devel \
- openssl-devel make bzip2 autoconf automake libtool bison sqlite-devel -y
+$ yum install gcc-c++ patch readline \
+  readline-devel zlib zlib-devel \
+  libffi-devel openssl-devel make \ 
+  bzip2 autoconf automake libtool \
+  bison sqlite-devel -y
 ```
  
 <br>
@@ -197,3 +199,4 @@ ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
 <br>
 
 참고 링크 : [RVM 공식 사이트](https://rvm.io/)
+
