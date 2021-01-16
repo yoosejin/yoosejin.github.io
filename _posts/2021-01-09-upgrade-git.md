@@ -18,7 +18,12 @@ sitemap:
 Test OS : CentOS Linux release 7.9.2009 (Core)
 <br>
 
-[Git 2.29 버전 설치 영상]이 있으니 확인 해보세요
+<figure>
+  <img data-action="zoom" src='{{ "/assets/img/Install_Git_2.29_title.jpg" | relative_url }}' alt='absolute'>
+  <figcaption>Youtube Thumbnail</figcaption>
+</figure>
+
+[Git 2.29 버전 설치 영상]이 있으니 확인 해보세요 (Install Git 2.29 Youtube Link)
 
 [Git 2.29 버전 설치 영상]: https://youtu.be/JJ9Pqg9GPjI
 
@@ -139,4 +144,5 @@ yum install -y zlib-devel
 <br>
 문의는 댓글이나 메일로 남겨주세요. <br>
 감사합니다.
+
 
