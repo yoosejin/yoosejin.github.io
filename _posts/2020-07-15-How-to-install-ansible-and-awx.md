@@ -65,7 +65,7 @@ $ git clone https://github.com/ansible/awx.git
 $ cd /app/awx
 
 # 아래는 awx에서 사용하는 로고들을 다운로드 받는 명령어입니다.
-$ git clone git clone https://github.com/ansible/awx-logos.git
+$ git clone https://github.com/ansible/awx-logos.git
 ```
 
 <br>
@@ -106,7 +106,7 @@ $ ansible-playbook -i inventory install.yml -vvv
 
 이 때, 진행 내역은 아래와 같습니다.
 
-$ yum install pyrhon3 -y 
+$ yum install python3 -y 
 ```
 
 <br>
