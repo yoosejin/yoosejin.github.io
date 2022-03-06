@@ -36,11 +36,10 @@ sitemap:
 ---
 가장 좋은 방법은 사용하는 소프트웨어 보안 혹은 버그 탭을 크롤링하여 주기적으로 확인하는 것인데요.
 <br>
-예를 들어 이번의 경우는 [Apache Security Vulnerabilities]에서 취약점 내용과 수정된 사항에 대해 확인할 수 있습니다. <br>
+예를 들어 이번의 경우는 [Apache Security Vulnerabilities]에서 취약점 내용과 수정된 사항에 대해 확인할 수 있습니다.
 [Apache Security Vulnerabilities]: https://logging.apache.org/log4j/2.x/security.html
 <br>
 하지만 이조차도 버거운 경우가 많을 것 같아요. 그럼 차선으로 선택할 수 있는건 [KISA 인터넷 보호나라]를 크롤링하거나 주기적으로 방문하여 취약점에 대한 정보를 얻는 방법이 있습니다.
-<br>
 [KISA 인터넷 보호나라]: https://www.krcert.or.kr/main.do
 
 <figure>
@@ -50,7 +49,9 @@ sitemap:
 
 <br>
 그럼 이번 Apache Log4j 취약점을 조치했던 순서를 따라해보면 <br>
-먼저, 인터넷 보호나라에 들어가서 취약점을 확인하고, [Log4j 취약점 링크]<br>
+먼저, 인터넷 보호나라에 들어가서 취약점을 확인하고, [Log4j 취약점 링크]
+[Log4j 취약점 링크]: https://www.krcert.or.kr/data/secNoticeView.do?bulletin_writing_sequence=36397
+<br>
 <figure>
   <img data-action="zoom" src='{{ "/assets/img/log4j_issue.JPG" | relative_url }}' alt='absolute'>
   <figcaption style="text-align: center;">취약점 및 영향버전 확인</figcaption>
@@ -72,7 +73,6 @@ sitemap:
 <br>
 내부 문서를 공개할 수 없어 임의로 작성한 표이고, 실제로는 내부에서 사용중인 Jira, Confluence를 활용하여 기록 및 공유하였습니다.
 <br>
-[Log4j 취약점 링크]: https://www.krcert.or.kr/data/secNoticeView.do?bulletin_writing_sequence=36397
 <br>
 이렇게 담당자에게 공유된 후 협의를 통해 취약 대상인 설정을 제거하거나 패키지를 업데이트, 미사용중인 라이브러리 제거 등의 조치를 진행하게 됩니다.
 
