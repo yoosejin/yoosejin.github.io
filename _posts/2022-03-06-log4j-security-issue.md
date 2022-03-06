@@ -36,11 +36,9 @@ sitemap:
 ---
 가장 좋은 방법은 사용하는 소프트웨어 보안 혹은 버그 탭을 크롤링하여 주기적으로 확인하는 것인데요.
 <br>
-예를 들어 이번의 경우는 [Apache Security Vulnerabilities]에서 취약점 내용과 수정된 사항에 대해 확인할 수 있습니다.
-[Apache Security Vulnerabilities]: https://logging.apache.org/log4j/2.x/security.html
+예를 들어 이번의 경우는 [Apache Security Vulnerabilities](https://logging.apache.org/log4j/2.x/security.html)에서 취약점 내용과 수정된 사항에 대해 확인할 수 있습니다.
 <br>
-하지만 이조차도 버거운 경우가 많을 것 같아요. 그럼 차선으로 선택할 수 있는건 [KISA 인터넷 보호나라]를 크롤링하거나 주기적으로 방문하여 취약점에 대한 정보를 얻는 방법이 있습니다.
-[KISA 인터넷 보호나라]: https://www.krcert.or.kr/main.do
+하지만 이조차도 버거운 경우가 많을 것 같아요. 그럼 차선으로 선택할 수 있는건 [KISA 인터넷 보호나라](https://www.krcert.or.kr/main.do)를 크롤링하거나 주기적으로 방문하여 취약점에 대한 정보를 얻는 방법이 있습니다.
 
 <figure>
   <img data-action="zoom" src='{{ "/assets/img/kisa.png" | relative_url }}' alt='absolute'>
@@ -49,8 +47,7 @@ sitemap:
 
 <br>
 그럼 이번 Apache Log4j 취약점을 조치했던 순서를 따라해보면 <br>
-먼저, 인터넷 보호나라에 들어가서 취약점을 확인하고, [Log4j 취약점 링크]
-[Log4j 취약점 링크]: https://www.krcert.or.kr/data/secNoticeView.do?bulletin_writing_sequence=36397
+먼저, 인터넷 보호나라에 들어가서 취약점을 확인하고, [Log4j 취약점 링크](https://www.krcert.or.kr/data/secNoticeView.do?bulletin_writing_sequence=36397)
 <br>
 <figure>
   <img data-action="zoom" src='{{ "/assets/img/log4j_issue.JPG" | relative_url }}' alt='absolute'>
